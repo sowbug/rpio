@@ -5,7 +5,7 @@ In an effort to help intrepid hackers who hook their brand-new Raspberry Pi's GP
 
   * Shifts the voltage of 16 of the 17 GPIO pins from 3.3 to a user-selectable voltage (typically 5.0), and back again from the user-selected voltage to a safe 3.3V for the Raspberry Pi. In technical terms, this is *bidirectional level translation*.
   * Provides up to 150mA of 3.3-volt power, which is significantly better than the 50mA of 3.3v power provided by the GPIO pins.
-  * Includes four current-limited LEDs. One confirms that the board has been successfully connected to the Raspberry Pi. Another indicates that the GPIO pins are now being level-shifted. The remaining two are left anode-disconnected with headers left temptingly close to GPIOs #1 and #2, for easy light-blinking fun.
+  * Includes four current-limited LEDs. One confirms that the board has been successfully connected to the Raspberry Pi. Another indicates that the GPIO pins are now being level-shifted. The remaining two are left anode-disconnected with headers left temptingly close to GPIOs #6 and #7, for easy light-blinking fun.
 
 Instructions
 ============
@@ -33,3 +33,4 @@ Credits
 =======
 
   * Board design by [Mike Tsao](http://www.sowbug.com/).
+  * The [Adafruit Part Finder](http://www.ladyada.net/wiki/partfinder) for making me aware of the TXB0108.
