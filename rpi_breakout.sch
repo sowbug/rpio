@@ -5439,7 +5439,11 @@ http://dangerousprototypes.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.2032" drill="0">
+</class>
+<class number="1" name="power/gnd" width="0.2032" drill="0">
+</class>
+<class number="2" name="skinny" width="0" drill="0">
 </class>
 </classes>
 <parts>
@@ -5565,7 +5569,7 @@ http://dangerousprototypes.com</description>
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="3V3_RPI" class="0">
+<net name="3V3_RPI" class="2">
 <segment>
 <label x="66.04" y="40.64" size="1.778" layer="95" font="vector"/>
 <pinref part="JP1" gate="A" pin="1"/>
@@ -5595,7 +5599,7 @@ http://dangerousprototypes.com</description>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="114.3" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 <label x="101.6" y="35.56" size="1.778" layer="95" font="vector"/>
@@ -5673,7 +5677,7 @@ http://dangerousprototypes.com</description>
 <junction x="193.04" y="86.36"/>
 </segment>
 </net>
-<net name="RXD" class="0">
+<net name="RXD" class="2">
 <segment>
 <wire x1="114.3" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <label x="101.6" y="30.48" size="1.778" layer="95" font="vector"/>
@@ -5686,7 +5690,7 @@ http://dangerousprototypes.com</description>
 <junction x="193.04" y="88.9"/>
 </segment>
 </net>
-<net name="GPIO_1" class="0">
+<net name="GPIO_1" class="2">
 <segment>
 <wire x1="114.3" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
 <label x="101.6" y="27.94" size="1.778" layer="95" font="vector"/>
@@ -5705,7 +5709,7 @@ http://dangerousprototypes.com</description>
 <pinref part="JP1" gate="A" pin="14"/>
 </segment>
 </net>
-<net name="GPIO_4" class="0">
+<net name="GPIO_4" class="2">
 <segment>
 <wire x1="114.3" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
 <label x="101.6" y="22.86" size="1.778" layer="95" font="vector"/>
@@ -5717,7 +5721,7 @@ http://dangerousprototypes.com</description>
 <label x="134.62" y="132.08" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="GPIO_5" class="0">
+<net name="GPIO_5" class="2">
 <segment>
 <wire x1="114.3" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
 <label x="101.6" y="20.32" size="1.778" layer="95" font="vector"/>
@@ -5736,7 +5740,7 @@ http://dangerousprototypes.com</description>
 <pinref part="JP1" gate="A" pin="20"/>
 </segment>
 </net>
-<net name="GPIO_6" class="0">
+<net name="GPIO_6" class="2">
 <segment>
 <wire x1="114.3" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 <label x="101.6" y="15.24" size="1.778" layer="95" font="vector"/>
@@ -5805,7 +5809,7 @@ http://dangerousprototypes.com</description>
 <label x="134.62" y="142.24" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="GPIO_2" class="0">
+<net name="GPIO_2" class="2">
 <segment>
 <label x="66.04" y="25.4" size="1.778" layer="95" font="vector"/>
 <pinref part="JP1" gate="A" pin="13"/>
@@ -5817,7 +5821,7 @@ http://dangerousprototypes.com</description>
 <label x="134.62" y="137.16" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="GPIO_3" class="0">
+<net name="GPIO_3" class="2">
 <segment>
 <label x="66.04" y="22.86" size="1.778" layer="95" font="vector"/>
 <pinref part="JP1" gate="A" pin="15"/>
@@ -5978,7 +5982,7 @@ http://dangerousprototypes.com</description>
 <label x="20.32" y="40.64" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
 <wire x1="48.26" y1="93.98" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
@@ -5997,7 +6001,7 @@ http://dangerousprototypes.com</description>
 <label x="49.53" y="12.7" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC" class="1">
 <segment>
 <pinref part="P+4" gate="1" pin="VCC"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
@@ -6224,7 +6228,7 @@ http://dangerousprototypes.com</description>
 <junction x="223.52" y="71.12"/>
 </segment>
 </net>
-<net name="/SPI_CE0" class="0">
+<net name="/SPI_CE0" class="2">
 <segment>
 <label x="177.8" y="76.2" size="1.778" layer="95" font="vector"/>
 <pinref part="U3" gate="G$1" pin="A6"/>
