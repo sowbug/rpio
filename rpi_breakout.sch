@@ -6359,7 +6359,7 @@ http://dangerousprototypes.com</description>
 <junction x="68.58" y="101.6"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="1">
 <segment>
 <wire x1="116.84" y1="101.6" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="5V"/>
@@ -6530,7 +6530,7 @@ http://dangerousprototypes.com</description>
 <junction x="223.52" y="73.66"/>
 </segment>
 </net>
-<net name="SDAV0" class="0">
+<net name="SDAV0" class="2">
 <segment>
 <wire x1="45.72" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
 <label x="49.53" y="15.24" size="1.778" layer="95" font="vector"/>
