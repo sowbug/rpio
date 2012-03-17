@@ -1896,12 +1896,12 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="LED1" library="adafruit" package="CHIPLED_0805" value="CONNECTED" x="9.6685" y="7.8693" smashed="yes" rot="R270"/>
 <element name="LED2" library="adafruit" package="CHIPLED_0805" value="IO-POWER" x="9.6488" y="5.3643" smashed="yes" rot="R270"/>
-<element name="R3" library="SparkFun" package="0805" value="330" x="23.2506" y="11.5067" smashed="yes" rot="R180"/>
-<element name="LED3" library="adafruit" package="CHIPLED_0805" value="BLINKY" x="25.2045" y="9.6068" smashed="yes" rot="R90"/>
-<element name="JP7" library="adafruit" package="1X01-CLEANBIG" value="LED3" x="28.7156" y="9.7367" smashed="yes"/>
-<element name="R4" library="SparkFun" package="0805" value="330" x="23.0282" y="5.335" smashed="yes" rot="R180"/>
-<element name="LED4" library="adafruit" package="CHIPLED_0805" value="BLINKY" x="25.2945" y="7.0527" smashed="yes" rot="R90"/>
-<element name="JP8" library="adafruit" package="1X01-CLEANBIG" value="LED4" x="28.7239" y="7.156" smashed="yes"/>
+<element name="R3" library="SparkFun" package="0805" value="330" x="23.114" y="12.065" smashed="yes" rot="R180"/>
+<element name="LED3" library="adafruit" package="CHIPLED_0805" value="BLINKY" x="25.2045" y="10.16" smashed="yes" rot="R90"/>
+<element name="JP7" library="adafruit" package="1X01-CLEANBIG" value="LED3" x="28.7156" y="10.16" smashed="yes"/>
+<element name="R4" library="SparkFun" package="0805" value="330" x="23.114" y="5.715" smashed="yes" rot="R180"/>
+<element name="LED4" library="adafruit" package="CHIPLED_0805" value="BLINKY" x="25.2945" y="7.62" smashed="yes" rot="R90"/>
+<element name="JP8" library="adafruit" package="1X01-CLEANBIG" value="LED4" x="28.7239" y="7.62" smashed="yes"/>
 <element name="U3" library="rpi_breakout" package="TSSOP20" value="TXB0108" x="15.6752" y="19.5621" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.2208" y="21.6449" size="0.5" layer="21" font="vector" rot="R270"/>
 <attribute name="VALUE" x="15.439121875" y="19.774990625" size="0.5" layer="21" font="vector"/>
@@ -2136,9 +2136,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U3" pad="17"/>
 <wire x1="16.6502" y1="16.6443" x2="16.6502" y2="14.8737" width="0.254" layer="1"/>
 <wire x1="16.6502" y1="14.8737" x2="20.2325" y2="11.2914" width="0.254" layer="1"/>
-<wire x1="33.147" y1="7.62" x2="32.3165" y2="8.4505" width="0.254" layer="16"/>
-<wire x1="32.3165" y1="8.4505" x2="23.0734" y2="8.4505" width="0.254" layer="16"/>
-<wire x1="23.0734" y1="8.4505" x2="20.2325" y2="11.2914" width="0.254" layer="16"/>
+<wire x1="33.147" y1="7.62" x2="31.8085" y2="8.89" width="0.254" layer="16"/>
+<wire x1="31.8085" y1="8.89" x2="22.8194" y2="8.89" width="0.254" layer="16"/>
+<wire x1="22.8194" y1="8.89" x2="20.2325" y2="11.2914" width="0.254" layer="16"/>
 <via x="20.2325" y="11.2914" extent="1-16" drill="0.3302" diameter="0.6858"/>
 </signal>
 <signal name="GPIOV_1">
@@ -2146,9 +2146,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U3" pad="18"/>
 <wire x1="17.3002" y1="16.6443" x2="17.3002" y2="15.9804" width="0.254" layer="1"/>
 <wire x1="17.3002" y1="15.9804" x2="19.2448" y2="14.0358" width="0.254" layer="1"/>
-<wire x1="33.401" y1="10.16" x2="32.182" y2="11.379" width="0.254" layer="16"/>
-<wire x1="32.182" y1="11.379" x2="21.9016" y2="11.379" width="0.254" layer="16"/>
-<wire x1="21.9016" y1="11.379" x2="19.2448" y2="14.0358" width="0.254" layer="16"/>
+<wire x1="33.401" y1="10.16" x2="31.42" y2="11.887" width="0.254" layer="16"/>
+<wire x1="31.42" y1="11.887" x2="21.3936" y2="11.887" width="0.254" layer="16"/>
+<wire x1="21.3936" y1="11.887" x2="19.2448" y2="14.0358" width="0.254" layer="16"/>
 <via x="19.2448" y="14.0358" extent="1-16" drill="0.3302" diameter="0.6858"/>
 </signal>
 <signal name="GPIOV_2">
@@ -2156,8 +2156,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U3" pad="20"/>
 <wire x1="18.6002" y1="16.6443" x2="21.2544" y2="13.9901" width="0.254" layer="1"/>
 <wire x1="21.2544" y1="13.9901" x2="21.2547" y2="13.9901" width="0.254" layer="1"/>
-<wire x1="33.147" y1="12.7" x2="22.5448" y2="12.7" width="0.254" layer="16"/>
-<wire x1="22.5448" y1="12.7" x2="21.2547" y2="13.9901" width="0.254" layer="16"/>
+<wire x1="33.147" y1="12.7" x2="31.6888" y2="13.97" width="0.254" layer="16"/>
+<wire x1="31.6888" y1="13.97" x2="21.2547" y2="13.9901" width="0.254" layer="16"/>
 <via x="21.2547" y="13.9901" extent="1-16" drill="0.3302" diameter="0.6858"/>
 </signal>
 <signal name="GPIOV_3">
@@ -2270,14 +2270,12 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="LED3_JP">
 <contactref element="JP7" pad="1"/>
 <contactref element="LED3" pad="A"/>
-<wire x1="26.2545" y1="9.6068" x2="28.5857" y2="9.6068" width="0.254" layer="1"/>
-<wire x1="28.5857" y1="9.6068" x2="28.7156" y2="9.7367" width="0.254" layer="1"/>
+<wire x1="26.2545" y1="10.16" x2="28.7156" y2="10.16" width="0.254" layer="1"/>
 </signal>
 <signal name="LED4_JP">
 <contactref element="JP8" pad="1"/>
 <contactref element="LED4" pad="A"/>
-<wire x1="26.3445" y1="7.0527" x2="28.6206" y2="7.0527" width="0.254" layer="1"/>
-<wire x1="28.6206" y1="7.0527" x2="28.7239" y2="7.156" width="0.254" layer="1"/>
+<wire x1="28.7239" y1="7.62" x2="26.3445" y2="7.62" width="0.254" layer="1"/>
 </signal>
 <signal name="RXDV">
 <contactref element="U3" pad="16"/>
@@ -2303,8 +2301,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP4" pad="2"/>
 <wire x1="23.114" y1="2.286" x2="23.1317" y2="2.3037" width="0.254" layer="1"/>
 <wire x1="23.1317" y1="2.3037" x2="23.1317" y2="12.2411" width="0.254" layer="1"/>
-<wire x1="23.1317" y1="12.2411" x2="23.9718" y2="13.0812" width="0.254" layer="1"/>
-<wire x1="23.9718" y1="13.0812" x2="23.9718" y2="16.6447" width="0.254" layer="1"/>
+<wire x1="23.9718" y1="15.6212" x2="23.9718" y2="14.224" width="0.254" layer="1"/>
+<wire x1="23.9718" y1="14.224" x2="23.9718" y2="15.6212" width="0.254" layer="1"/>
+<wire x1="23.9718" y1="15.6212" x2="23.9718" y2="16.6447" width="0.254" layer="1"/>
+<wire x1="23.1317" y1="12.2411" x2="23.114" y2="13.462" width="0.254" layer="1"/>
+<wire x1="23.114" y1="13.462" x2="23.9718" y2="14.224" width="0.254" layer="1"/>
 </signal>
 <signal name="SPI_MISOV">
 <contactref element="U2" pad="17"/>
@@ -2348,17 +2349,17 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="LED3" pad="C"/>
 <contactref element="R3" pad="1"/>
 <wire x1="24.1545" y1="10.5879" x2="24.1545" y2="11.5028" width="0.254" layer="1"/>
-<wire x1="24.1545" y1="11.5028" x2="24.1506" y2="11.5067" width="0.254" layer="1"/>
-<wire x1="24.1545" y1="9.6068" x2="24.1545" y2="10.5879" width="0.254" layer="1"/>
-<wire x1="24.1545" y1="10.0248" x2="24.1545" y2="9.6068" width="0.254" layer="1"/>
+<wire x1="24.1545" y1="11.5028" x2="24.014" y2="12.065" width="0.254" layer="1"/>
+<wire x1="24.1545" y1="10.16" x2="24.1545" y2="10.5879" width="0.254" layer="1"/>
+<wire x1="24.1545" y1="10.0248" x2="24.1545" y2="10.16" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R4" pad="1"/>
 <contactref element="LED4" pad="C"/>
-<wire x1="24.2445" y1="7.0527" x2="24.2445" y2="6.0716" width="0.254" layer="1"/>
+<wire x1="24.2445" y1="7.62" x2="24.2445" y2="6.0716" width="0.254" layer="1"/>
 <wire x1="24.2445" y1="6.0716" x2="24.13" y2="5.9571" width="0.254" layer="1"/>
 <wire x1="24.13" y1="5.9571" x2="24.13" y2="5.588" width="0.254" layer="1"/>
-<wire x1="24.13" y1="5.588" x2="23.9282" y2="5.335" width="0.254" layer="1"/>
+<wire x1="24.13" y1="5.588" x2="24.014" y2="5.715" width="0.254" layer="1"/>
 </signal>
 <signal name="5V" class="1">
 <contactref element="VREG1" pad="3"/>
