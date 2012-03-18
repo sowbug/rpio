@@ -9487,7 +9487,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="132.08" y1="40.64" x2="132.08" y2="182.88" width="0.1524" layer="97"/>
 <text x="134.62" y="175.26" size="5.08" layer="97" font="vector">Level Translation</text>
 <text x="149.86" y="30.48" size="2.54" layer="94" font="vector">A Raspberry Pi GPIO level shifter.</text>
-<text x="149.86" y="25.4" size="2.54" layer="94" font="vector">www.sowbug.com</text>
+<text x="149.86" y="25.4" size="2.54" layer="94" font="vector">www.sowbug.com/rpio</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="15.24" y="73.66"/>
