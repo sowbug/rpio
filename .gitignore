@@ -1,0 +1,9 @@
+*.b#*
+*.s#*
+*.ger
+*.gpi
+*.dri
+*.xln
+*.pro
+eagle.epf
+.DS_Store
