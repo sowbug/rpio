@@ -136,7 +136,7 @@
 <text x="30.48" y="12.7" size="0.8128" layer="25" font="vector" align="center">GP2</text>
 <text x="30.48" y="10.16" size="0.8128" layer="25" font="vector" align="center">GP1</text>
 <text x="30.48" y="7.62" size="0.8128" layer="25" font="vector" align="center">GP0</text>
-<text x="5.08" y="22.86" size="0.8128" layer="21" font="vector" rot="R90" align="center">VCC</text>
+<text x="5.08" y="22.86" size="0.8128" layer="21" font="vector" rot="R90" align="center">VIO</text>
 <text x="5.08" y="20.32" size="0.8128" layer="21" font="vector" rot="R90" align="center">GND</text>
 <text x="5.08" y="15.24" size="0.8128" layer="21" font="vector" rot="R90" align="center">3.3</text>
 <text x="5.08" y="12.7" size="0.8128" layer="21" font="vector" rot="R90" align="center">VIO</text>
@@ -906,8 +906,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="13.3604" y="18.9572" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="VREG1" library="rpi_breakout" package="DP_DEVICES_SOT-23-5" value="3.3V" x="8.4976" y="15.1577" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.6548" y="17.0701" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="5.0686" y="17.0627" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="4.8448" y="17.0701" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="9.6073" y="17.1336" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C1" library="rpi_breakout" package="SPARKFUN_0805" value="0.1uF" x="10.16" y="19.685" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.245" y="18.8947" size="0.8128" layer="25" font="vector"/>
