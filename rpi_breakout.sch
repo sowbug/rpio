@@ -7630,7 +7630,7 @@ With round pins</description>
 <instance part="P+8" gate="1" x="210.82" y="109.22"/>
 <instance part="GND8" gate="1" x="208.28" y="53.34"/>
 <instance part="VREG1" gate="G$1" x="30.48" y="88.9"/>
-<instance part="C1" gate="G$1" x="50.8" y="83.82"/>
+<instance part="C1" gate="G$1" x="50.8" y="86.36" rot="R180"/>
 <instance part="C2" gate="G$1" x="60.96" y="86.36"/>
 <instance part="GND9" gate="1" x="55.88" y="71.12"/>
 <instance part="JP4" gate="G$1" x="40.64" y="38.1"/>
@@ -7746,7 +7746,7 @@ With round pins</description>
 <wire x1="60.96" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="76.2" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="88.9" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="81.28" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
 <junction x="55.88" y="76.2"/>
 </segment>
@@ -7840,9 +7840,9 @@ With round pins</description>
 <pinref part="JP1" gate="A" pin="16"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="A8"/>
-<wire x1="149.86" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<label x="134.62" y="124.46" size="1.778" layer="95" font="vector"/>
+<pinref part="U2" gate="G$1" pin="A7"/>
+<wire x1="149.86" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
+<label x="134.62" y="127" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="GPIO_5" class="0">
@@ -7957,9 +7957,9 @@ With round pins</description>
 <wire x1="66.04" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="A7"/>
-<wire x1="149.86" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
-<label x="134.62" y="127" size="1.778" layer="95" font="vector"/>
+<pinref part="U2" gate="G$1" pin="A8"/>
+<wire x1="149.86" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
+<label x="134.62" y="124.46" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="NC_4" class="0">
@@ -8058,9 +8058,9 @@ With round pins</description>
 <label x="20.32" y="30.48" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="B7"/>
-<wire x1="180.34" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
-<label x="185.42" y="127" size="1.778" layer="95" font="vector"/>
+<pinref part="U2" gate="G$1" pin="B8"/>
+<wire x1="180.34" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="185.42" y="124.46" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="GPIOV_4" class="0">
@@ -8070,9 +8070,9 @@ With round pins</description>
 <label x="20.32" y="33.02" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="B8"/>
-<wire x1="180.34" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
-<label x="185.42" y="124.46" size="1.778" layer="95" font="vector"/>
+<pinref part="U2" gate="G$1" pin="B7"/>
+<wire x1="180.34" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
+<label x="185.42" y="127" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="GPIOV_5" class="0">
@@ -8119,7 +8119,7 @@ With round pins</description>
 <pinref part="VREG1" gate="G$1" pin="OUT"/>
 <wire x1="48.26" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="81.28" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="88.9" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="50.8" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="93.98" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
