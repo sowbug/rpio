@@ -3,7 +3,7 @@ RPio: A Raspberry Pi Breakout Board
 
 In an effort to help intrepid hackers who hook their brand-new Raspberry Pi's GPIO pins to standard 5-volt maker fare and wonder why their boards stop working, we present RPio, which does the following:
 
-  * Shifts the voltage of 16 of the 17 GPIO pins from 3.3 to a user-selectable voltage (typically 5.0), and back again from the user-selected voltage to a safe 3.3V for the Raspberry Pi. In technical terms, this is *bidirectional level translation*.
+  * Shifts the voltage of 15 of the 17 GPIO pins from 3.3 to a user-selectable voltage (typically 5.0), and back again from the user-selected voltage to a safe 3.3V for the Raspberry Pi. In technical terms, this is *bidirectional level translation*. For the remaining two, pulls up in an I2C-compatible fashion.
   * Provides up to 150mA of 3.3-volt power, which is significantly more than the 50mA of 3.3v power provided by the GPIO pins. It's not enough to drive a robot up a hill, but it is enough to safely power a few ICs while writing data to an SD card.
   * Includes five current-limited LEDs, two for status and three for experimenting. One confirms that the board has been successfully connected to the Raspberry Pi. Another indicates that the level-shifted GPIO pins are live. The remaining three are cathode-grounded, anode-disconnected with headers ready to connect to GPIOs, for easy light-blinking fun.
 
