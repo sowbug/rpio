@@ -10,7 +10,7 @@ In an effort to help intrepid hackers who hook their brand-new Raspberry Pi's GP
 Instructions
 ============
 
-*Note that almost nobody on Earth, including me, has a Raspberry Pi yet. Thus, these instructions are purely speculative. See Caveats below.*
+*These instructions are not yet tested. See Caveats below.*
 
 These instructions will refer to the Raspberry Pi as the **RPi**. The breakout board is the **RPio**. The **north end** of the RPio is the end that has the 26-pin GPIO header matching the RPi's header. The **south end** is the other end. The RPi is assumed to be component-side up, with the SD card slot pointing left and the HDMI jack pointing down, toward you.
 
@@ -35,4 +35,4 @@ Credits
 =======
 
   * Board design by [Mike Tsao](http://www.sowbug.com/) and [Dennis Gentry](https://github.com/dgentry).
-  * Thanks to the [Adafruit Part Finder](http://www.ladyada.net/wiki/partfinder) for making us aware of the TXB0108.
+  * Thanks to the [Adafruit Part Finder](http://www.ladyada.net/wiki/partfinder) for making us aware of the TXB0108.  [Datasheet here](http://www.ti.com/lit/ds/symlink/txb0108.pdf)
